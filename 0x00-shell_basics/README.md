@@ -38,3 +38,5 @@ and hidden files (starting with .) .
 'mkdir -p welcome/to/school' creates the directories welcome/, welcome/to/ and welcome/to/school in the current directory.
 
 'ls -map | sort -d' lists all the files and directories of the current directory, separated by commas (,) with directory names ending with a slash (/), files and directories starting with a dot (.) listed the listing is alpha ordered, except for the directories . and .. which are listed at the very beginning, only digits and letters are used to sort; digits come first.
+
+'file -C -m school.mgc' detects School data files.  
